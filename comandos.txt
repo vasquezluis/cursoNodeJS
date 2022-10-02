@@ -1,0 +1,38 @@
+########### Conceptos Generales ###########
+
+# Modelo cliente-servidor
+cliente request -> servidor
+servidor response -> cliente
+
+# Metodos de solicitud HTTP
+- GET -> el servidor muestra informacion
+- POST -> se crea una informacion en el servidor
+- PUT -> se actualiza informacion en el servidor
+- DELETE -> se elimina informacion en el servidor
+
+# Respuesta del servidor al cliente
+// codigos de estado de respuesta HTTP
+- 1xx -> tipo informativo
+- 2xx -> respuestas de exito
+- 3xx -> redireccion
+- 4xx -> errores en el cliente
+- 5xx -> errores en el servidor
+
+# iniciar proyecto con NODE
+npm init 
+
+# instalar dependencias
+npm install axios (paquete)
+
+# ejecutar archivo
+node index.js
+
+# modulosen nodejs
+const axios = require('axios');
+
+# instalar paquetes de desarrollo
+npm i -D nodemon
+
+# iniciar script de nodemon
+pachage.json -> "scripts" {"start": "nodemon index.js"}
+terminal -> npm run start
