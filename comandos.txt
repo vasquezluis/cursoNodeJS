@@ -36,3 +36,6 @@ npm i -D nodemon
 # iniciar script de nodemon
 pachage.json -> "scripts" {"start": "nodemon index.js"}
 terminal -> npm run start
+
+# usar .env
+para guardar variables de entorno que tienen que estar en .gitignore
