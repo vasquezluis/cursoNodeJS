@@ -1,0 +1,23 @@
+{
+  "name": "firstproject",
+  "version": "0.0.1",
+  "description": "Primer proyecto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js # esta es una aplicacion de node",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "first",
+    "project"
+  ],
+  "author": "vasquezluis",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
