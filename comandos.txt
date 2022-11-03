@@ -36,3 +36,10 @@ npm i -D nodemon
 # iniciar script de nodemon
 pachage.json -> "scripts" {"start": "nodemon index.js"}
 terminal -> npm run start
+
+# iniciar projecto vitejs
+npm create vite
+
+# iniciar modulo sin descargarlo, se elimina despues de la ejecucion
+npx cowsay curso de nodejs
+npx serve
